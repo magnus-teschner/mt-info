@@ -3,78 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mt info page</title>
+    <title>Personal Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class = "header-class">
-        <div class = "left">
-            <img src="./images/mt_logo.png" alt="logo of my website" id = "logo-image">
+    <!--NAV-->
+    <nav class = "navbar">
+        <div class = "left-navbar-container">
+            <a href= "#title-section" class="nav-link">
+                Personal Website
+            </a>
+        </div>
+        
+        <div class = "right-navbar-container">
+            <ul class = "navlink-list">
+                <li class = "nav-link-element"><a href="#about" class = "nav-link">About</a></li>
+                <li class = "nav-link-element"><a href="#social-media" class = "nav-link">Social Media</a></li>
+                <li class = "nav-link-element"><a href="#motivation" class = "nav-link">Motivation</a></li>
+                <li class = "nav-link-element"><a href="#contact" class = "nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About -->
+    <div id = #about class = "about-container">
+        <div class = "about-text">
+            <p class = "about-header-text">This catsite is awesome</p>
+            <p class = "below-header-text">Funny animal photos do more than just make us laugh. They show us the fun (and totally hilarious) side of an animal’s personality.</p>
+            <button class = "sign-up-button">Sign up</button>
         </div>
 
-        <div class = "right">
-            <a href="">link 1</a>
-            <a href="">link 2</a>
-            <a href="">link 3</a>
-        </div>
-    </div>
-
-    <div class = "content-1">
-        <div class = "left-1">
-            <p class = "hero-text">This website is awesome</p>
-            <p class = "sub-text">This website has some subtext that does here under the main title. It is a smaller font and the color is lower contrast</p>
-            <button class = "sign-up">Sign up</button>
-
-        </div>
-        <div class = "right-1">
-            <img src="./images/placeholder.png" alt="placeholder image" class = "placeholder-1">
-        </div>
-    </div>
-
-    <div class = "random-info">
-        <div class ="random-heading">Some random information</div>
-        <div class="container-images-text">
-            <div class = pics>
-                <img src="./images/twitter.png" alt="twitter logo" class = "twitter">
-                <div class = "text">this is some subtext under an illustration or image</div>
-            </div>
-            <div class = pics>
-                <img src="./images/twitter.png" alt="twitter logo" class = "twitter">
-                <div class = "text">this is some subtext under an illustration or image</div>
-            </div>
-            <div class = pics>
-                <img src="./images/twitter.png" alt="twitter logo" class = "twitter">
-                <div class = "text">this is some subtext under an illustration or image</div>
-            </div>
-            <div class = pics>
-                <img src="./images/twitter.png" alt="twitter logo" class = "twitter">
-                <div class = "text">this is some subtext under an illustration or image</div>
-            </div>
+        <div class = "about-image">
+            <img src="./images/cat.png" alt="a picture of a cat">
         </div>
     </div>
 
-    <div class = "testemonial">
-        <div class = "quote">
-            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+    <!-- Social Media-->
+    <div class = "social-media-container" id = "social-media">
+        <div class = "social-media-heading">Some random information</div>
+        <div class = "logos-text">
+            <div class = "one-logo-text">
+                <a href="https://twitter.com/?lang=de"><img class = "social-logo" src="./images/twitter.png" alt="Twitter logo"></a>
+                <div class = "logo-text">Twitter</div>
+            </div>
+
+            <div class = "one-logo-text">
+                <a href="https://de.linkedin.com/"><img class = "social-logo" src="./images/linkedin.png" alt="Linked In logo"></a>
+                <div class = "logo-text">Linked In</div>
+            </div>
+
+            <div class = "one-logo-text">
+                <a href="https://www.instagram.com/"><img class = "social-logo" src="./images/logo_instagram.png" alt="Instagram logo"></a>
+                <div class = "logo-text">Instagram</div>
+            </div>
         </div>
-        <div class = "author">-Thor, God of Thunder</div>
     </div>
 
+    <!-- Motivation-->
+    <div class = "motivation" id = "motivation">
+        <div class = "quote-wrapper">
+            <div class = "italic-quote">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsa similique aperiam modi culpa suscipit, molestiae quo alias officiis vitae totam. Numquam totam in eum accusamus maiores quidem qui soluta?
+            </div>
+            <div class = "author">- The author</div></div>
+    </div>
 
-    <div class = "container-blue">
-        <div class = "container-text">
+    <!-- Contact -->
+   <div class = "contact-section" id = contact>
+    <div class = "contact-box">
+        <div class = "text-box">
             <div class = "text">Call to action. It's time</div>
             <div class = "subtext">Sign up for our product by clicking the button right over there!</div>
         </div>
 
         <div class = "button-container">
-            <button class = "sign-up2 sign-up">Sign up</button>
+            <button class = "sign-up-button border-button">Email</button>
         </div>
+        
     </div>
+   </div>
 
-    <div class = "footer">
-        <div class = "text-footer">Copyright © The Odin Project 2023</div>
-    </div>
+    <!-- Footer-->
+    <footer class = "footer">
+        <div class = "footer-text">
+         Copyright © The Odin Project 2023
+        </div>
+    </footer>
 
-</body>
-</html>
+
